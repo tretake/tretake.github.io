@@ -28,18 +28,42 @@
     margin: 40px ;
     padding-bottom: 100px;
   }
-  .apresentacao{
-    margin-bottom: 50px;
-  }
+ 
 
   body {
     margin-left: 170px;
+    font-size: 18px;
+  }
+  main {
+    display: flex;
   }
 
   h1 {
     text-align: center;
   }
 
+  .formacao {
+    width: 50%;
+  }
+
+  .habilidades {
+    padding: 4px;
+    width: 300px;
+    background-color: #eeeeee;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+  }
+
+  .linha {
+  border-left: 3px solid rgba(152, 152, 152, 0.852);
+  height: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  details {
+    margin-bottom: 20px;
+
+  }
   details > summary {
     padding: 4px;
     width: 300px;
