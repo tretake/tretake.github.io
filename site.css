@@ -20,6 +20,18 @@
     color: #f1f1f1;
   }
 
+  .imagem-redonda{
+    border-radius: 50%;
+  }
+  .nome {
+    font-size: 40px;
+    margin: 40px ;
+    padding-bottom: 100px;
+  }
+  .apresentacao{
+    margin-bottom: 50px;
+  }
+
   body {
     margin-left: 170px;
   }
