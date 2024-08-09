@@ -34,9 +34,13 @@
     margin-left: 170px;
     font-size: 18px;
   }
-  main {
-    display: flex;
+
+  @media (min-width: 700px) {
+    main {
+      display: flex;
+    }
   }
+  
 
   h1 {
     text-align: center;
